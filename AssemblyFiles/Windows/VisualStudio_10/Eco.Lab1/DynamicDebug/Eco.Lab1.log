@@ -1,18 +1,31 @@
-﻿Build started 03.03.2024 17:10:07.
+﻿Build started 05.05.2024 19:36:43.
      1>Project "D:\Programming\C\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1.vcxproj" on node 2 (rebuild target(s)).
      1>_PrepareForClean:
          Deleting file "Eco.Lab1\DynamicDebug\Eco.Lab1.lastbuildstate".
        InitializeBuildStatus:
-         Touching "Eco.Lab1\DynamicDebug\Eco.Lab1.unsuccessfulbuild".
+         Creating "Eco.Lab1\DynamicDebug\Eco.Lab1.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\HeaderFiles /I..\..\..\SharedFiles /ID:\Programs\Eco.Framework\Eco.Core1\SharedFiles /ID:\Programs\Eco.Framework\Eco.InterfaceBus1\SharedFiles /ID:\Programs\Eco.Framework\Eco.System1\SharedFiles /ID:\Programs\Eco.Framework\Eco.MemoryManager1\SharedFiles /ID:\Programs\Eco.Framework\Eco.FileSystemManagement1\SharedFiles /ID:\Programs\Eco.Framework\Eco.List1\SharedFiles /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D ECO_WINDOWS /D ECO_WIN32 /D UGUID_UTILITY /D ECO_DLL /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Eco.Lab1\DynamicDebug\\" /Fd"Eco.Lab1\DynamicDebug\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt ..\..\..\SourceFiles\CEcoLab1.c ..\..\..\SourceFiles\CEcoLab1Factory.c
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\HeaderFiles /I..\..\..\SharedFiles /ID:\Programming\C\Eco.Framework\Eco.Core1\SharedFiles /ID:\Programming\C\Eco.Framework\Eco.InterfaceBus1\SharedFiles /ID:\Programming\C\Eco.Framework\Eco.System1\SharedFiles /ID:\Programming\C\Eco.Framework\Eco.MemoryManager1\SharedFiles /ID:\Programming\C\Eco.Framework\Eco.FileSystemManagement1\SharedFiles /ID:\Programming\C\Eco.Framework\Eco.List1\SharedFiles /ID:\Programming\C\EcoLab3\HeaderFiles /ID:\Programming\C\EcoLab3\SharedFiles /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D ECO_WINDOWS /D ECO_WIN32 /D UGUID_UTILITY /D ECO_DLL /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Eco.Lab1\DynamicDebug\\" /Fd"Eco.Lab1\DynamicDebug\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt ..\..\..\SourceFiles\CEcoLab1.c ..\..\..\SourceFiles\CEcoLab1ConnectionPoint.c ..\..\..\SourceFiles\CEcoLab1EnumConnectionPoints.c ..\..\..\SourceFiles\CEcoLab1EnumConnections.c ..\..\..\SourceFiles\CEcoLab1Factory.c
          CEcoLab1Factory.c
+         CEcoLab1EnumConnections.c
+         CEcoLab1EnumConnectionPoints.c
+         CEcoLab1ConnectionPoint.c
          CEcoLab1.c
+     1>d:\programming\c\eco.lab1\sourcefiles\cecolab1.c(307): warning C4047: 'function' : 'IEcoConnectionPoint *' differs in levels of indirection from 'IEcoConnectionPointVTbl **'
+     1>d:\programming\c\eco.lab1\sourcefiles\cecolab1.c(307): warning C4024: 'createCEcoLab1EnumConnectionPoints' : different types for formal and actual parameter 2
+     1>d:\programming\c\eco.lab1\sourcefiles\cecolab1.c(331): warning C4047: 'function' : 'IEcoConnectionPoint *' differs in levels of indirection from 'IEcoConnectionPointVTbl **'
+     1>d:\programming\c\eco.lab1\sourcefiles\cecolab1.c(331): warning C4024: 'function through pointer' : different types for formal and actual parameter 1
+     1>d:\programming\c\eco.lab1\sourcefiles\cecolab1.c(332): warning C4047: '=' : 'IEcoConnectionPoint *' differs in levels of indirection from 'IEcoConnectionPointVTbl **'
+     1>d:\programming\c\eco.lab1\sourcefiles\cecolab1.c(598): warning C4047: 'function' : 'IEcoConnectionPointContainer *' differs in levels of indirection from 'IEcoConnectionPointContainerVTbl **'
+     1>d:\programming\c\eco.lab1\sourcefiles\cecolab1.c(598): warning C4024: 'createCEcoLab1ConnectionPoint' : different types for formal and actual parameter 2
          Generating Code...
-     1>d:\programming\c\eco.lab1\sourcefiles\cecolab1.c(139): warning C4715: 'stepStoogeSort' : not all control paths return a value
+     1>d:\programming\c\eco.lab1\sourcefiles\cecolab1.c(199): warning C4715: 'stepStoogeSort' : not all control paths return a value
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\Programming\C\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1\DynamicDebug\1F5DF16EE1BF43B999A434ED38FE8F3A.dll) does not match the Linker's OutputFile property value (D:\Programming\C\Eco.Lab1\BuildFiles\Windows\x86\DynamicDebug\1F5DF16EE1BF43B999A434ED38FE8F3A.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\BuildFiles\Windows\x86\DynamicDebug\1F5DF16EE1BF43B999A434ED38FE8F3A.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Eco.Lab1\DynamicDebug\1F5DF16EE1BF43B999A434ED38FE8F3A.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Programming\C\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1\DynamicDebug\1F5DF16EE1BF43B999A434ED38FE8F3A.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Programming\C\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1\DynamicDebug\1F5DF16EE1BF43B999A434ED38FE8F3A.lib" /MACHINE:X86 /DLL Eco.Lab1\DynamicDebug\CEcoLab1.obj
+         Eco.Lab1\DynamicDebug\CEcoLab1ConnectionPoint.obj
+         Eco.Lab1\DynamicDebug\CEcoLab1EnumConnectionPoints.obj
+         Eco.Lab1\DynamicDebug\CEcoLab1EnumConnections.obj
          Eco.Lab1\DynamicDebug\CEcoLab1Factory.obj
             Creating library D:\Programming\C\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1\DynamicDebug\1F5DF16EE1BF43B999A434ED38FE8F3A.lib and object D:\Programming\C\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1\DynamicDebug\1F5DF16EE1BF43B999A434ED38FE8F3A.exp
          Eco.Lab1.vcxproj -> D:\Programming\C\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1\DynamicDebug\1F5DF16EE1BF43B999A434ED38FE8F3A.dll
@@ -25,4 +38,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.79
+Time Elapsed 00:00:02.16

@@ -1,0 +1,56 @@
+﻿Build started 05.05.2024 16:09:39.
+     1>Project "D:\Programming\C\EcoLab3\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Eco.Lab1\DynamicRelease\Eco.Lab1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\HeaderFiles /I..\..\..\SharedFiles /ID:\Programming\C\Eco.Framework\Eco.Core1\SharedFiles /ID:\Programming\C\Eco.Framework\Eco.InterfaceBus1\SharedFiles /ID:\Programming\C\Eco.Framework\Eco.System1\SharedFiles /ID:\Programming\C\Eco.Framework\Eco.MemoryManager1\SharedFiles /ID:\Programming\C\Eco.Framework\Eco.FileSystemManagement1\SharedFiles /ID:\Programming\C\Eco.Framework\Eco.List1\SharedFiles /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D UGUID_UTILITY /D ECO_WINDOWS /D ECO_WIN32 /D ECO_DLL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Eco.Lab1\DynamicRelease\\" /Fd"Eco.Lab1\DynamicRelease\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt ..\..\..\SourceFiles\CEcoLab1.c ..\..\..\SourceFiles\CEcoLab1Factory.c
+         CEcoLab1.c
+     1>..\..\..\SourceFiles\CEcoLab1.c(542): error C2039: 'm_pISys' : is not a member of 'IEcoLab1'
+                 D:\Programming\C\EcoLab3\SharedFiles\IEcoLab1.h(23) : see declaration of 'IEcoLab1'
+     1>..\..\..\SourceFiles\CEcoLab1.c(545): error C2039: 'm_pISys' : is not a member of 'IEcoLab1'
+                 D:\Programming\C\EcoLab3\SharedFiles\IEcoLab1.h(23) : see declaration of 'IEcoLab1'
+     1>..\..\..\SourceFiles\CEcoLab1.c(545): error C2039: 'm_pISys' : is not a member of 'IEcoLab1'
+                 D:\Programming\C\EcoLab3\SharedFiles\IEcoLab1.h(23) : see declaration of 'IEcoLab1'
+     1>..\..\..\SourceFiles\CEcoLab1.c(553): error C2039: 'm_pISys' : is not a member of 'IEcoLab1'
+                 D:\Programming\C\EcoLab3\SharedFiles\IEcoLab1.h(23) : see declaration of 'IEcoLab1'
+     1>..\..\..\SourceFiles\CEcoLab1.c(556): error C2039: 'm_pIY' : is not a member of 'IEcoLab1'
+                 D:\Programming\C\EcoLab3\SharedFiles\IEcoLab1.h(23) : see declaration of 'IEcoLab1'
+     1>..\..\..\SourceFiles\CEcoLab1.c(556): error C2198: 'function through pointer' : too few arguments for call
+     1>..\..\..\SourceFiles\CEcoLab1.c(557): error C2039: 'm_pIY' : is not a member of 'IEcoLab1'
+                 D:\Programming\C\EcoLab3\SharedFiles\IEcoLab1.h(23) : see declaration of 'IEcoLab1'
+     1>..\..\..\SourceFiles\CEcoLab1.c(559): error C2039: 'm_pIY' : is not a member of 'IEcoLab1'
+                 D:\Programming\C\EcoLab3\SharedFiles\IEcoLab1.h(23) : see declaration of 'IEcoLab1'
+     1>..\..\..\SourceFiles\CEcoLab1.c(559): error C2039: 'm_pIY' : is not a member of 'IEcoLab1'
+                 D:\Programming\C\EcoLab3\SharedFiles\IEcoLab1.h(23) : see declaration of 'IEcoLab1'
+     1>..\..\..\SourceFiles\CEcoLab1.c(559): error C2039: 'm_pIX' : is not a member of 'IEcoLab1'
+                 D:\Programming\C\EcoLab3\SharedFiles\IEcoLab1.h(23) : see declaration of 'IEcoLab1'
+     1>..\..\..\SourceFiles\CEcoLab1.c(560): error C2039: 'm_pIX' : is not a member of 'IEcoLab1'
+                 D:\Programming\C\EcoLab3\SharedFiles\IEcoLab1.h(23) : see declaration of 'IEcoLab1'
+     1>..\..\..\SourceFiles\CEcoLab1.c(562): error C2039: 'm_pIX' : is not a member of 'IEcoLab1'
+                 D:\Programming\C\EcoLab3\SharedFiles\IEcoLab1.h(23) : see declaration of 'IEcoLab1'
+     1>..\..\..\SourceFiles\CEcoLab1.c(562): error C2198: 'function through pointer' : too few arguments for call
+     1>..\..\..\SourceFiles\CEcoLab1.c(567): error C2039: 'm_pIY' : is not a member of 'IEcoLab1'
+                 D:\Programming\C\EcoLab3\SharedFiles\IEcoLab1.h(23) : see declaration of 'IEcoLab1'
+     1>..\..\..\SourceFiles\CEcoLab1.c(567): error C2198: 'function through pointer' : too few arguments for call
+     1>..\..\..\SourceFiles\CEcoLab1.c(568): error C2039: 'm_pIY' : is not a member of 'IEcoLab1'
+                 D:\Programming\C\EcoLab3\SharedFiles\IEcoLab1.h(23) : see declaration of 'IEcoLab1'
+     1>..\..\..\SourceFiles\CEcoLab1.c(570): error C2039: 'm_pIY' : is not a member of 'IEcoLab1'
+                 D:\Programming\C\EcoLab3\SharedFiles\IEcoLab1.h(23) : see declaration of 'IEcoLab1'
+     1>..\..\..\SourceFiles\CEcoLab1.c(570): error C2039: 'm_pIY' : is not a member of 'IEcoLab1'
+                 D:\Programming\C\EcoLab3\SharedFiles\IEcoLab1.h(23) : see declaration of 'IEcoLab1'
+     1>..\..\..\SourceFiles\CEcoLab1.c(570): error C2039: 'm_pIX' : is not a member of 'IEcoLab1'
+                 D:\Programming\C\EcoLab3\SharedFiles\IEcoLab1.h(23) : see declaration of 'IEcoLab1'
+     1>..\..\..\SourceFiles\CEcoLab1.c(574): error C2039: 'm_pInnerUnknown' : is not a member of 'IEcoLab1'
+                 D:\Programming\C\EcoLab3\SharedFiles\IEcoLab1.h(23) : see declaration of 'IEcoLab1'
+     1>..\..\..\SourceFiles\CEcoLab1.c(574): error C2198: 'function through pointer' : too few arguments for call
+     1>..\..\..\SourceFiles\CEcoLab1.c(575): error C2039: 'm_pInnerUnknown' : is not a member of 'IEcoLab1'
+                 D:\Programming\C\EcoLab3\SharedFiles\IEcoLab1.h(23) : see declaration of 'IEcoLab1'
+     1>..\..\..\SourceFiles\CEcoLab1.c(577): error C2039: 'm_pIX' : is not a member of 'IEcoLab1'
+                 D:\Programming\C\EcoLab3\SharedFiles\IEcoLab1.h(23) : see declaration of 'IEcoLab1'
+     1>..\..\..\SourceFiles\CEcoLab1.c(577): error C2198: 'function through pointer' : too few arguments for call
+         CEcoLab1Factory.c
+     1>Done Building Project "D:\Programming\C\EcoLab3\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.66

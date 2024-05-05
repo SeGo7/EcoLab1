@@ -1,27 +1,4 @@
-﻿/*
- * <кодировка символов>
- *   Cyrillic (UTF-8 with signature) - Codepage 65001
- * </кодировка символов>
- *
- * <сводка>
- *   IEcoLab1
- * </сводка>
- *
- * <описание>
- *   Данный заголовок описывает интерфейс IEcoLab1
- * </описание>
- *
- * <ссылка>
- *
- * </ссылка>
- *
- * <автор>
- *   Copyright (c) 2018 Vladimir Bashev. All rights reserved.
- * </автор>
- *
- */
-
-#ifndef __I_ECOLAB1_H__
+﻿#ifndef __I_ECOLAB1_H__
 #define __I_ECOLAB1_H__
 
 #include "IEcoBase1.h"
